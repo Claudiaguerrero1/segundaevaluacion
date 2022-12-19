@@ -1,0 +1,44 @@
+//Instrucciones básicas
+#include<iostream>//Librería de cabecera
+using namespace std;
+
+int main(){
+    //definimos 3 variables
+    int edad;
+    cout<<"introduce tu edad: ";
+    cin>> edad;
+    if(edad>=18){
+    	//Rama verdadero
+    	cout<<"Eres menor de edad";
+	}
+	else{
+		//Rama falso
+		cout<<"Eres menor de edad";
+	}
+    return 0;
+}
+
+
+
+//Instrucciones básicas
+//switch
+
+#include<iostream>//Librería de cabecera
+using namespace std;
+
+int main(){
+    //definimos 3 variables
+    int n1,n2,n3;
+    cout<<"introduce tres numeros enteros: ";
+    cin>> n1>>n2>>n2;
+    if(n1>n2){
+    	if(n2>n3){
+    		cout<<"El mayor es: "<<n1;
+		}
+    
+	}
+	else{
+		cout<<"El mayor es: "<<n3;
+	}
+    return 0;
+}
